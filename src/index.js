@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ThemeProvider theme={theme}>
         <Provider store={store}>
             <PersistGate loading={null} persistor={persistor}>
-                <BrowserRouter basename="/MoneyGuard">
+                <BrowserRouter basename="/react_bc_55_lastavchuk">
                     <App />
                 </BrowserRouter>
             </PersistGate>
